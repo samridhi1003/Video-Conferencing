@@ -1,0 +1,116 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    .redtext {
+      font-size:12px;
+    }
+  }
+
+.status-bar {
+    position: relative;
+    text-align: center;
+  }
+
+.login {
+    position: absolute;
+    margin-top: 10px;
+    left: 1391px;
+    text-decoration: none;
+    color:white;
+    font: normal normal bold 18px/27px Montserrat;
+}
+
+.user {
+    position: absolute;
+    margin-top: 10px;
+    left: 1290px;
+    text-decoration: none;
+    color:white;
+    font: normal normal bold 18px/27px Montserrat;
+}
+
+.header1 {
+    width: 500px;
+}
+
+.header2 {
+    margin-top: 9px;
+    width: 600px;
+}
+
+.container {
+    margin-left: 70px;
+    margin-top: 60px;
+}
+
+.p1 {
+    padding-top: 30px;
+}
+
+.p2 {
+    margin-top: 30px;
+    width: 600px;
+}
+
+.meeting-link {
+	text-align:left;
+	font-size: 16px;
+	font-weight: 500;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.meet-link-label {
+	font-weight: 700;
+}
+
+.heading-vc2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #db2828;
+    margin-bottom: 30px;
+    font: normal normal 600 44px/54px Montserrat;
+  }
+
+.login:hover {
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+.join, .join:hover {
+    text-decoration: none;
+    color: black;
+    display: block;
+    background-color: #db2828;
+    width:100px;
+    height: 50px;
+    text-align: center;
+	border: none;
+    border-radius: 50px;
+    color: white;
+    line-height: 50px;
+    
+    float:left;
+}
+
+.log-btn, .log-btn:hover {
+    text-decoration: none;
+    
+    display: block;
+    background-color: #FFE9E2;
+    width: 140px;
+    height: 50px;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    color: #FC703C;
+    line-height: 50px;
+    float:left;
+    margin-right: 5px;
+}

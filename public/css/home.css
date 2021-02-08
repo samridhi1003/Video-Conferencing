@@ -1,0 +1,52 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+	background-color: #efefef;
+}
+
+
+
+.status-bar {
+    position: relative;
+    text-align: center;
+  }
+
+.login {
+    position: absolute;
+    top: 21px;
+    left: 1191px;
+    text-decoration: none;
+    color: white;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-28) var(--unnamed-font-family-montserrat);
+    font-weight: 800;
+    font-size: larger;
+}
+
+.header1 {
+    width: 500px;
+}
+
+.header2 {
+    margin-top: 9px;
+    width: 600px;
+}
+
+.container {
+    margin-left: 70px;
+    margin-top: 60px;
+}
+
+.p1 {
+    padding-top: 30px;
+}
+
+.p2 {
+    margin-top: 30px;
+    width: 600px;
+}
+
+.login:hover {
+    text-decoration: none;
+    color: blanchedalmond;
+}

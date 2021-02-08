@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lokavidya Meet</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">   
+    <link rel="stylesheet" href="/css/viewMeetings.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	
+	<link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/materialize.min.css">
+    <link rel="stylesheet" href="/css/materialize.css">
+    <link rel="stylesheet" href="/css/nav.css">
+
+    <!--Montserrat Font-->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <style>
+        body {
+            font-family: 'Montserrat';font-size: 14px;
+        }
+        .heading-vc2 {
+            text-align: center;
+            margin-top: 20px;
+            font-weight: bolder;
+            font-size: 40px;
+            color: #db2828;
+        }
+        .label {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 120%;
+        }
+        .yourName {
+        width: 80%;
+        margin-top: 0;
+        border: 1px solid #7f8390;
+        border-radius: 7px;
+        height: 50px;
+        text-indent: 20px;
+        }
+        .meet-btn, .meet-btn:hover {
+        text-decoration: none;
+        color: #db2828;
+        display: block;
+        background-color: #db2828;
+        width: 100px;
+        height: 50px;
+        text-align: center;
+        font-family: Montserrat;
+        border: none;
+        border-radius: 50px;
+        color: white;
+        line-height: 50px;
+        margin: 30px auto;
+        float: left;
+    }
+
+    .log-btn, .log-btn:hover {
+        text-decoration: none;
+        display: block;
+        background-color: #FFE9E2;
+        width: 150px;
+        height: 50px;
+        text-align: center;
+        font-family: Montserrat;
+        font-weight: bold;
+        border: none;
+        border-radius: 50px;
+        color: #FC703C;
+        line-height: 50px;
+        margin: 30px auto;
+        float: right;
+    }
+
+
+    @media only screen and (max-width: 768px) {
+    .text{
+      max-width: 100%;
+    }
+  }
+    </style>
+
+</head>
+<body>
+    <div class="nav-nav">
+        <div><a href="/meet" style="font-size: 22px; font-weight: bolder;color: white; margin-left: 50px;">LOKAVIDYA Meet</a></div>
+    </div>
+
+    <br>
+
+    <div class="container">
+        <div class="row">
+
+        </div>
+        <div class="row ">
+            <div class="col-md-3 col-lg-3 mt-4">
+            
+               
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 text mt-4">
+                <img class="text" src="/images/text.png" style= "width: 240%; object-fit: contain;">
+            </div>
+            <div class="col-lg-3 my-4">
+
+            </div>
+        </div>        
+        <div class="row">
+            <div class="col-xs-2 col-sm-2 col-md-4 col-lg-4">
+                           
+            </div>
+            <div class="col-xs-2 col-sm-2 col-md-1 col-lg-1 mt-4">
+                <p style="font-size: 18px; font-weight: bold;">Name</p>
+            </div>
+            <div class="col-xs-8 col-sm-8 col-md-7 col-lg-7">
+
+            </div>
+        </div>
+        <div class="row">
+            <div class=" col-md-4 col-lg-4">
+                           
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 ">
+                <form action='/vc2/enterName' method='POST'>
+                    <input type="name" id="VCname" class="form-control mb-4" placeholder="Enter your name" style="font:normal normal 500 15px/15px Montserrat;" name='VCName'>
+                    <input type='submit' class="meet-btn" placeholder="Join">
+                    <a href="http://ssonew.lokavidya.com/sessions/verify?redirect_url=http://meet.lokavidya.com/vc2/join/sso" class="log-btn" >Login</a>
+                </form>
+            </div>
+            <div class="col-md-4 col-lg-4">
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-7 col-lg-7">
+                           
+            </div>
+            <div class="col-sm-1 col-md-1 col-lg-1">
+                
+                
+                <!--<img src="/images/Join.png" height="60%">-->
+            </div>
+            <div class="col-sm-5 col-md-4 col-lg-4">
+                           
+            </div>
+
+        </div>
+    </div>
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

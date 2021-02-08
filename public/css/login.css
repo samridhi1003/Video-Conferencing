@@ -1,0 +1,49 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #efefef;
+}
+
+.status-bar {
+    position: relative;
+    text-align: center;
+  }
+
+.message {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 40px;
+    color: #db2828;
+  }
+
+form {
+  width: 375px;
+  margin: 10px auto;
+}
+
+.email-label, .password-label {
+  color: #373c4a;
+  font-weight: 800;
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+.email, .password {
+  width: 100%;
+  margin-top: 0;
+  border: 1px solid #7f8390;
+  border-radius: 7px;
+  height: 50px;
+  text-indent: 20px;
+}
+
+button, button:active {
+  border: none;
+  color: white;
+  margin-left: 225px;
+  margin-top: 20px;
+  width: 150px;
+  height: 100px;
+}

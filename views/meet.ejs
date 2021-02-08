@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lokavidya Meet</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">   
+    <link rel="stylesheet" href="css/meet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/navbar.css">
+
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    
+    <!--Navbar Links-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/nav.css">
+
+
+    <!--Montserrat Font-->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <style>
+        body {
+            font-family: 'Montserrat';font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+
+    <div class="nav-nav">
+        <div><a href="/meet" style="font-size: 22px; font-weight: bolder;color: white; margin-left: 50px;">LOKAVIDYA Meet</a></div>
+        <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        
+        <ul class="ul-links">
+            <li class="li-element" style="font-size: 20px; font-weight: bold;"><%= name %></li>
+            <li class="li-element" style="font-size: 20px; font-weight: bold;"><a class="logout-nav" href="/logout">Logout</a></li>
+        </ul>
+    </div>
+    
+    
+    <ul class="sidenav" id="mobile-nav">
+            <li><a href="#"><%=name %></a></li>
+                <li><a href="#">Logout</a></li>
+                
+    </ul>
+   
+
+    
+    
+    <div class="container-fluid">
+        
+        <div class="row">
+            <div class="col s12 m6 l6 mx-5 my-4" >
+                
+                <img src="images/text.png" style= "width: 100%; object-fit: contain;">
+                    
+            </div> 
+            <div class="col-sm-1 col-md-1 col-lg-1">
+
+            </div>
+            
+            <div class="col-sm-11 col-md-5 col-lg-5 my-4">
+                <img src="images/Benefits.png" style= "height:100%; width: 100%; object-fit: contain;">
+            </div>
+
+                 
+        </div>
+        
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="row">
+                        <div class="col-md-2 col-lg-2">
+            
+                        </div>
+                        <div class="col-md-10 col-lg-10">
+                            <p>Experience seamless video interactions on VC Channel 1 or VC Channel 2 based on the nature of meet you want to host. You can simply create a ‘New meeting’ and host a meeting of your own. You can easily set the meeting name, date and invite others to collaborate & share.</p>
+                        </div>
+                        
+                    
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="row">
+                        
+                        <div class="col-md-2 col-lg-2">
+
+                        </div>
+                        
+                        <div class="col-md-10 col-lg-10">
+                            <p>Lokavidya Meet is a Video Conferencing Solution that can facilitate online meetings in a streamlined manner by enabling efficient interactions for the organisations and the students. The platform enables remote, high-quality online learning experiences by empowering collaboration, learning & knowledge sharing. We facilitate 2 VC channels that caters to varied meeting formats and requirements.</p>
+                        </div>
+
+                    </div>
+                </div>
+                
+            </div>    
+                
+        </div>      
+        
+        
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    
+                    <div class="row">
+                        <div class="col-md-2 col-lg-2">
+
+                        </div>
+                        <div class="col-md-10 col-lg-10">
+                            <a href="/vc2"><img src="images/VC1.png" width="100%";></a>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2 col-lg-2">
+                            
+                        </div>
+                        <div class="col-md-4 col-lg-4">
+                            <div class="media">
+                                <img class="align-self-start mr-3" src="images/1.png">
+                                <div class="media-body">
+                                    <p>Experience a virtual classroom experience with collaborative tools.</p>
+                                
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-lg-2">
+        
+                        </div>
+                        <div class="col-md-4 col-lg-4">
+                            <div class="media">
+                                <img class="align-self-start mr-3" src="images/2.png">
+                                <div class="media-body">
+                                    <p>Real-time sharing of audio, video, presentations & screen</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 col-lg-2">
+        
+                        </div>
+                        <div class="col-md-4 col-lg-4">
+                            <div class="media">
+                                <img class="align-self-start mr-3" src="images/3.png">
+                                <div class="media-body">
+                                    <p>Use tools like whiteboard, shared notes, chats, polling, breakout rooms and more</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-lg-2">
+        
+                        </div>
+                        <div class="col-md-4 col-lg-4">
+                            <div class="media">
+                                <img class="align-self-start mr-3" src="images/4.png">
+                                <div class="media-body">
+                                    <p>You can revisit you sessions for later playback.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-6 hideVC">
+                    
+                    <div class="row">
+                        <div class="col-md-2 col-lg-2">
+
+                        </div>
+                        
+                        <div class=" col-md-10 col-lg-10">
+                           
+                            <a href="/vc1"><img src="images/VC2.png" width=100% ></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 col-lg-2">
+        
+                        </div>
+                        <div class="col-md-4 col-lg-4">
+                            <div class="media">
+                                <img class="align-self-start mr-3" src="images/1.png">
+                                <div class="media-body">
+                                    <p>Enables a seamless video conferencing experience on multiple platforms.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-lg-2">
+        
+                        </div>
+                        <div class="col-md-4 col-lg-4">
+                            <div class="media">
+                                <img class="align-self-start mr-3" src="images/2.png">
+                                <div class="media-body">
+                                    <p>Share your desktop, presentations, messages and more.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 col-lg-2">
+        
+                        </div>
+                        <div class="col-md-4 col-lg-4">
+                            <div class="media">
+                                <img class="align-self-start mr-3" src="images/3.png">
+                                <div class="media-body">
+                                    <p>Invite users to a video conference via a simple URL.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-lg-2">
+        
+                        </div>
+                        <div class="col-md-4 col-lg-4">
+                            <div class="media">
+                                <img class="align-self-start mr-3" src="images/4.png">
+                                <div class="media-body">
+                                    <p>Allows you to record the sessions & view them later.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    
+
+
+        
+    </div>
+    <script>
+        var ul = document.querySelector('.ul-links');
+        var hamburger = document.querySelector('.hamburger');
+        var nav = document.querySelector('.nav-nav');
+        hamburger.addEventListener('click', ()=>{
+            ul.classList.toggle('active')
+            nav.classList.toggle('nav-display')
+        })
+    </script>  
+
+</body>
+</html>

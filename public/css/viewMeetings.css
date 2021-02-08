@@ -1,0 +1,61 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.status-bar {
+    position: relative;
+    text-align: center;
+  }
+
+.login {
+    position: absolute;
+    margin-top: 10px;
+    left: 1391px;
+    text-decoration: none;
+    color:white;
+    font: normal normal bold 18px/27px Montserrat;
+}
+
+.login:hover {
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+.user {
+    position: absolute;
+    margin-top: 10px;
+    left: 1290px;
+    text-decoration: none;
+    color:white;
+    font: normal normal bold 18px/27px Montserrat;
+}
+
+.title {
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: bolder;
+    font-size: 34px;
+    color: #db2828;
+  }
+
+.main-head, .main {
+	display:flex;
+	justify-content: space-around;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.join-btn, .join-btn:hover {
+	text-decoration: none;
+    color: black;
+    background-color: #db2828;
+    width: 70px;
+    height: 50px;
+    text-align: center;
+	border: none;
+    border-radius: 40px;
+    color: white;
+    line-height: 50px;
+}

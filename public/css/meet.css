@@ -1,0 +1,100 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+
+@media (max-width: 767px) {    .hideVC{
+    display:none;
+  }
+  }
+
+
+.status-bar {
+    position: relative;
+    text-align: center;
+  }
+
+.login {
+    position: absolute;
+    margin-top: 10px;
+    left: 1391px;
+    text-decoration: none;
+    color:white;
+    font: normal normal bold 18px/27px Montserrat;
+}
+
+.user {
+    position: absolute;
+    margin-top: 10px;
+    left: 1290px;
+    text-decoration: none;
+    color:white;
+    font: normal normal bold 18px/27px Montserrat;
+}
+
+.title {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 40px;
+    color: #db2828;
+  }
+
+.header1 {
+    width: 500px;
+}
+
+.header2 {
+    margin-top: 9px;
+    width: 600px;
+}
+
+.container {
+    margin-left: 70px;
+    margin-top: 60px;
+}
+
+.p1 {
+    padding-top: 30px;
+}
+
+.p2 {
+    margin-top: 30px;
+    width: 600px;
+}
+
+.login:hover {
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+.banner2 {
+    padding-left: 50px;
+}
+
+.vc1, .points1{
+    width: 100%;
+}
+
+.vc1 {
+    height: 80px;
+}
+
+.points1 {
+    margin-top: 30px;
+}
+
+.vc2, .points2 {
+    width: 620px;
+    padding-left: 30px;
+}
+
+.vc2 {
+	height: 80px;
+}
+
+.points2 {
+    margin-top: 30px;
+}

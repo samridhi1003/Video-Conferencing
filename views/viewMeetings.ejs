@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lokavidya Meet</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">   
+    <link rel="stylesheet" href="/css/viewMeetings.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/css/navbar.css">
+	
+	<link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/materialize.min.css">
+	<link rel="stylesheet" href="/css/materialize.css">
+	<link rel="stylesheet" href="/css/nav.css">
+
+	<!--Navbar Links-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+    <!--Montserrat Font-->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <style>
+        body {
+            font-family: 'Montserrat';font-size: 14px;
+        }
+	</style>
+	<script>
+		$(document).ready(function(){
+	 $('.sidenav').sidenav();
+	 });
+	</script>
+
+</head>
+<body>
+
+    <div class="nav-nav">
+        <div><a  href="/meet" style="font-size: 22px; font-weight: bolder;color: white; margin-left: 50px;">LOKAVIDYA Meet</a></div>
+        <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        
+        <ul class="ul-links">
+            <li class="li-element" style="font-size: 20px; font-weight: bold;"><%= name %></li>
+            <li class="li-element" style="font-size: 20px; font-weight: bold;"><a class="logout-nav" href="/logout">Logout</a></li>
+        </ul>
+    </div>
+    
+    
+    <ul class="sidenav" id="mobile-nav">
+            <li><a href="#"><%=name %></a></li>
+                <li><a href="#">Logout</a></li>
+                
+    </ul>
+	
+
+
+<div class="container-fluid">
+	<div class="row">
+
+	</div>
+	<div class="row">
+		<div class="col-xs-0 col-sm-0 col-md-2 col-lg-2">
+
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+			<div class='title'>
+				<p >
+					Live Meetings in VC Channel
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+	
+	<br>
+	<br>
+
+	<div class='main-head'>
+		<p style="font-size: 16px; font-weight: bolder;">
+			Sr No.
+		</p>
+		<p style="font-size: 16px; font-weight: bolder;">
+			Title of Meeting
+		</p>
+		<p style="font-size: 16px; font-weight: bolder;">
+			Join Link
+		</p>
+	</div>
+	<% for(var i = 0; i < names.length; i++){ %>
+		<div class='main'>
+			<p>
+				<%= i+1 %>
+			</p>
+			<p>
+				<%= names[i] %>
+			</p>
+			<a href='<%= joinlink[i] %>' target='_blank' class='join-btn'> Join </a>
+		</div>	  
+	<% } %>
+	
+	<script>
+        var ul = document.querySelector('.ul-links');
+        var hamburger = document.querySelector('.hamburger');
+        var nav = document.querySelector('.nav-nav');
+        hamburger.addEventListener('click', ()=>{
+            ul.classList.toggle('active')
+            nav.classList.toggle('nav-display')
+        })
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

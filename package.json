@@ -1,0 +1,25 @@
+{
+  "name": "lvmeet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Himanshu Agarwal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "randomstring": "^1.1.5",
+    "request": "^2.88.2",
+    "sha-1": "^1.0.0",
+    "url-encode-decode": "^1.0.0",
+    "xml2json": "^0.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
